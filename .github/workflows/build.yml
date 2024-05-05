@@ -29,3 +29,9 @@ jobs:
 
       - name: Print the OS release file
         run: cat /etc/os-release
+
+      - name: Print some useful information
+        run: |
+          pwd
+          echo ----
+          ls -l
